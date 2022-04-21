@@ -13,6 +13,7 @@
 		83549C94280ADFF500CBFE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83549C92280ADFF500CBFE1D /* Main.storyboard */; };
 		83549C96280ADFF700CBFE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83549C95280ADFF700CBFE1D /* Assets.xcassets */; };
 		83549C99280ADFF700CBFE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83549C97280ADFF700CBFE1D /* LaunchScreen.storyboard */; };
+		83549CA3280AE04800CBFE1D /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83549CA2280AE04800CBFE1D /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		83549C95280ADFF700CBFE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83549C98280ADFF700CBFE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83549C9A280ADFF700CBFE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83549CA2280AE04800CBFE1D /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				83549C95280ADFF700CBFE1D /* Assets.xcassets */,
 				83549C97280ADFF700CBFE1D /* LaunchScreen.storyboard */,
 				83549C9A280ADFF700CBFE1D /* Info.plist */,
+				83549CA2280AE04800CBFE1D /* TextView.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83549C91280ADFF500CBFE1D /* ViewController.swift in Sources */,
+				83549CA3280AE04800CBFE1D /* TextView.swift in Sources */,
 				83549C8D280ADFF500CBFE1D /* AppDelegate.swift in Sources */,
 				83549C8F280ADFF500CBFE1D /* SceneDelegate.swift in Sources */,
 			);
